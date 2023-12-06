@@ -90,7 +90,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25rem;
+    width: 26rem;
     font-size: large;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -108,10 +108,12 @@ main {
     display: flex;
     justify-content: center;
     width: 10rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
 }
 #columnTwoText {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 footer {
     display: flex;
