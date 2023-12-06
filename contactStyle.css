@@ -86,7 +86,7 @@ main {
     align-self: center;
     margin: 0;
     height: 50rem;
-    width: 60rem;
+    width: 50rem;
 }
 .minyArticle{
     width: 9rem;
@@ -175,7 +175,7 @@ footer a{
     margin: 1rem 0.25rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     #hederTitle{
         width: 5rem;
     }
