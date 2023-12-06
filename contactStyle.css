@@ -53,6 +53,9 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+.titleText{
+    font-size: 2rem;
+}
 .title{
     display: flex;
     align-items: center;
@@ -68,7 +71,8 @@ main {
     border-top: 0.1rem solid rgb(190, 190, 190);
     border-bottom: 0.1rem solid rgb(190, 190, 190);
     width: 60%;
-    padding: 2rem 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .title p {
     width: 60%;
@@ -87,6 +91,9 @@ main {
 .minyArticle{
     width: 9rem;
     align-self:baseline ;
+}
+.minyArticle h2{
+    width: 12rem;
 }
 .minyArticle p {
     margin-top: 2rem; 
@@ -113,13 +120,14 @@ form textarea{
 }
 .button{
     height: 3rem;
-    width: 5rem;
+    width: 6rem;
     background-color: rgb(15, 106, 180);
     color: white;
     font-size:medium;
+    font-weight: bold;
 }
-label small{
-    color: #929292;
+label {
+    font-weight: bold;
 }
 label small{
     color: #929292;
