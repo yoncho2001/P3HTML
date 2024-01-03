@@ -128,7 +128,6 @@ class LinkedList {
             this._head = current.next;
         }
         else {
-
             while (i++ < index) {
                 previous = current;
                 current = current.next;
@@ -144,6 +143,7 @@ class LinkedList {
 
     *[Symbol.iterator]() {
         let current = this.head;
+
         while (current) {
             yield current.value;
             current = current.next;
@@ -163,5 +163,5 @@ class LinkedList {
 
 const list = new LinkedList();
 const removed = list.append(1, 2, 3, 4, 5).removeAt(1);
-console.log(removed); // Should output 2
-list.print(); // Should print 1, 3, 4, 5
+console.log(removed); 
+list.print();

@@ -21,8 +21,8 @@ function replaceATag(inputArray) {
         result += html.substring(index, startIndex) + '[' + text + '](' + url + ')';
         index = endIndex;
     }
-    result += html.substring(index);
 
+    result += html.substring(index);
     return result;
 }
 

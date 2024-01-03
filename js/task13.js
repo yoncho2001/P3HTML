@@ -10,6 +10,6 @@ function reverse(string) {
     revString = revString.join('');
     return revString;
 }
-var sample = "sample";
 
+var sample = "sample";
 alert(reverse(sample));

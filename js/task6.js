@@ -19,6 +19,7 @@ function processNumbers(numbers) {
 
 let input = prompt('numbers:', '');
 let numbers = input.split(' ');
+
 for (let i = 0; i < numbers.length; i++) {
     numbers[i] = parseFloat(numbers[i]);
 }

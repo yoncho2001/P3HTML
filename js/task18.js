@@ -5,6 +5,7 @@ function stringFormat(str) {
         var regex = new RegExp('\\{' + (i - 1) + '\\}', 'g');
         str = str.replace(regex, arguments[i]);
     }
+    
     return str;
 }
 

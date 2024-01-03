@@ -4,6 +4,7 @@ Array.prototype.remove = function(value) {
             this.splice(i, 1);
         }
     }
+    
     return this
 };
 
