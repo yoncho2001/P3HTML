@@ -5,31 +5,19 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .navigation {
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
-
-.logos {
+.logosSeparator  {
     display: flex;
     justify-content: flex-end;
 }
-
-#fb {
-    max-width: 1.5rem;
-    height: auto;
-    margin-top: 0.3rem;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-#insta {
+.logo {
     max-width: 1.2rem;
     height: auto;
     margin-block: 0.5rem;
+    margin-left: 0.5rem;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -37,45 +25,32 @@ header {
     margin-right: 7rem;
     margin-left: 7rem;
 }
-
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
-
-.underHeader {
+.title {
     background-image: url('logos-pictures/Picture1.jpg');
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgba(0, 162, 255, 0.50);
-    background-position: bottom  center;
+    background-position: 50% 85%;
     background-repeat: no-repeat;
     height: 16rem;
     padding-top: 70px;
     display: flex;
-
     justify-content: center;
 }
-
-.underHeaderBody {
+.titleContent {
     width: 600px;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
-
-#title {
-
+.titleText {
     color: #f5f5f5;
 }
-
-#heverTravelP {
-    color: #f5f5f5;
-}
-
 #getAway {
     background-color: rgb(224, 172, 41);
     width: 5rem;
@@ -83,23 +58,20 @@ main {
     border-radius: 0.5rem;
     border: none;
 }
-
-.mainPage {
+.mainContent {
     display: flex;
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 2rem;
     background-color: #f5f5f5;
 }
-
-.mainPage2 {
+.secondaryArticle {
     display: flex;
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
 
 }
-
 .minyArticle {
     display: flex;
     flex-direction: column;
@@ -108,48 +80,41 @@ main {
     margin-left: 0.5rem;
     width: 200px;
 }
-
 .picture {
     width: 12rem;
     height: 12rem;
 }
-
 #columnOne {
     border-top: 2px solid rgb(150, 150, 150);
     border-bottom: 2px solid rgb(150, 150, 150);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25rem;
+    width: 26rem;
     font-size: large;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
 #columnOneRowOne {
     display: flex;
     justify-content: center;
 }
-
 #columnOneRowTwo {
     color: #646464;
     display: flex;
     justify-content: center;
 }
-
 #columnTwo {
     display: flex;
     justify-content: center;
     width: 10rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
 }
-
 #columnTwoText {
-
     display: flex;
-    justify-content: center;
-
+    align-items: center;
 }
-
 footer {
     display: flex;
     justify-content: center;
@@ -158,147 +123,81 @@ footer {
     color: #fff;
     text-align: center;
     padding: 2rem 0;
-
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.footerDiv {
+.footerSeparator {
     display: flex;
     justify-content: center;
 }
-
 footer article {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     margin-left: 1rem;
     margin-right: 1rem;
     width: 9rem;
 }
-
 footer a {
     color: #fff;
     text-decoration: none;
 }
-
 a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
-
 a:hover {
     color: rgb(0, 93, 199);
 }
 
 @media (max-width: 700px) {
-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-.mainPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #f5f5f5;
-}
-
-.mainPage2 {
-    display: flex;
-    justify-content: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-}
-
-.minyArticle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    width: auto;
-}
-
-.picture {
-    align-self: center;
-    max-width: 20rem;
-    min-width: 20rem;
-    width: 100%;
-    max-height: 20rem;
-    min-height: 20rem;
-    height: 100%;
-}
-
-#columnOne {
-    border-top: 2px solid rgb(150, 150, 150);
-    border-bottom: 2px solid rgb(150, 150, 150);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 15rem;
-    font-size: large;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-right: 1rem;
-}
-
-#columnOneRowOne {
-    display: flex;
-    justify-content: center;
-}
-
-#columnOneRowTwo {
-    color: #646464;
-    display: flex;
-    justify-content: center;
-}
-
-#columnTwo {
-    display: flex;
-    justify-content: center;
-    width: 7rem;
-}
-
-#columnTwoText {
-
-    display: flex;
-    justify-content: center;
-
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background: #333;
-    color: #fff;
-    text-align: center;
-
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.footerDiv {
-    display: flex;
-    justify-content: center;
-}
-
-footer article {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 5rem;
-    font-size: small;
+    header {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .secondaryArticle {
+        padding: 2rem;
+    }
+    .minyArticle {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        width: auto;
+    }
+    .picture {
+        align-self: center;
+        min-width: 20rem;
+        width: 100%;;
+        min-height: 20rem;
+        height: 100%;        
+    }
+    #columnOne {
+        width: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: 1rem;
+    }
+    #columnTwo {
+        width: 7rem;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .footerSeparator {
+        display: flex;
+        justify-content: center;
+    }
+    footer article {
+        width: 5rem;
+        font-size: small;
+    }
 }
